@@ -16,10 +16,8 @@ Got a query? Email this user.
 
 ## Authors
 
-Contributors names and contact info
-
-ex. Addison Ho
-ex. Jasmine Seah
+Addison Ho
+Jasmine Seah
 
 ## Version History
 
