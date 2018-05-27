@@ -1,6 +1,6 @@
 # RUNNUS Landing Page.
 
-Landing Page for 
+Landing Page for RUNNUS 2018 event.
 
 ## Description
 
