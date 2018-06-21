@@ -39,4 +39,5 @@ $colors: map-merge($colors, $addColors);
 
 // 6. Import the rest of Bulma
 @import "bulma";
-@import "bulma-extensions/bulma-pricingtable/dist/bulma-pricingtable"
+@import "bulma-extensions/bulma-pricingtable/dist/bulma-pricingtable";
+@import "bulma-extensions/bulma-divider/dist/bulma-divider";

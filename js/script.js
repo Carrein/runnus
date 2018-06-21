@@ -57,4 +57,10 @@ $(document).ready(function () {
     },
       'slow');
   });
+  $(".sponsors").click(function () {
+    $('html,body').animate({
+      scrollTop: $(".volunteer-body").offset().top
+    },
+      'slow');
+  });
 });

@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
   <link rel="stylesheet" href="bulma/styles.css">
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
 </head>
 
 <body>
@@ -29,13 +31,16 @@
             Runner's Entitlement
           </a>
           <a class="navbar-item pack">
-            Race Pack
+            Race Packs
           </a>
           <a class="navbar-item routes">
             Race Routes
           </a>
           <a class="navbar-item volunteer">
             Volunteering
+          </a>
+          <a class="navbar-item sponsors">
+            Sponsors
           </a>
           <hr class="navbar-divider">
           <div class="navbar-item">
@@ -156,7 +161,7 @@
       <div class="columns is-desktop">
         <div class="column">
           <div class="content table-container">
-            <h2>3KM</h2>
+            <h1 class="has-text-info">3KM</h1>
             <table class="table is-hoverable is-size-6">
               <thead>
                 <tr>
@@ -187,7 +192,7 @@
         </div>
         <div class="column">
           <div class="content table-container">
-            <h2>5KM</h2>
+            <h1 class="has-text-warning">5KM</h1>
             <table class="table is-hoverable is-size-6">
               <thead>
                 <tr>
@@ -218,7 +223,7 @@
         </div>
         <div class="column">
           <div class="content table-container">
-            <h2>10KM</h2>
+            <h1 class="has-text-danger">10KM</h1>
             <table class="table is-hoverable is-size-6">
               <thead>
                 <tr>
@@ -253,21 +258,21 @@
           <h1 class="title is-6">*Early bird promotion ends 30 June.</h1>
           <p class="is-size-6">Apart from our usual 10km and 5km running categories, RunNUS is back with a new walking category, 3km Challenge,
             open to everyone! To promote inclusiveness, we will be inviting 50 Persons With Disabilities / Special Needs
-            (PWDSNs) to join us in our walk.</p>
-          <p>
-            <h1 class="title is-4">How can you be involved? (Choose one of the 2 segments)</h1>
+            (PWDSNs) to join us in our walk.
           </p>
+          <h3 class="has-text-info">3KM</h3>
+          <div class="is-divider" data-content="Requirements"></div>
           <ul type="none">
             <li>
-              <b>Segment 1: Be grouped with our PWDSNs and interact with them throughout the 3km journey. </b>
+              <b>Be grouped with our PWDSNs and interact with them throughout the 3km journey. </b>
             </li>
             <ol style="padding-left: 1em" type="a">
               <li>Only 50 slots available so hurry! </li>
               <li>Completely free of charge </li>
               <li> Feeling unsure/worried about not being experienced enough? Fret not as:
                 <ol style="padding-left: 1em" type="i">
-                  <li>You will go through a talk conducted by Disabled... DPA on how to interact with our PWDSNs. More details
-                    will be given at a later date.</li>
+                  <li>You will go through a talk conducted by Disabled... Disabled People’s Association (DPA) on how to interact
+                    with our PWDSNs. More details will be given at a later date.</li>
                   <li>Trained personnel will be provided by SSOs on the event day to aid in the smooth execution of the 3km challenge.</li>
                 </ol>
               </li>
@@ -275,8 +280,9 @@
                 <b>Important:</b> Before signing up, please ensure that you will be able to commit your time on the day of the
                 talk and the event as any withdrawal will not be permitted. </li>
             </ol>
+            <div class="is-divider" data-content="OR"></div>
             <li>
-              <b>Segment 2: Pair up and walk with your family/friend</b>
+              <b>Pair up and walk with your family/friend</b>
             </li>
             <ol style="padding-left:1em" type="a">
               <li>Sign up individually and pair up with a family member/friend on the event day.</li>
@@ -287,9 +293,43 @@
             </ol>
             </ol>
         </div>
+        <h3 class="has-text-warning">5KM</h3>
+        <div class="is-divider" data-content="Requirements"></div>
+        None.
+        <h3 class="has-text-danger">10KM</h3>
+        <div class="is-divider" data-content="Requirements"></div>
+        None.
       </div>
-
+    </div>
   </section>
+
+  <div class="section">
+    <!--Inline styling for iFrame-->
+    <style>
+      .fluidMedia {
+        position: relative;
+        padding-bottom: 56.25%;
+        /* proportion value to aspect ratio 16:9 (9 / 16 = 0.5625 or 56.25%) */
+        padding-top: 30px;
+        height: 0;
+        overflow: hidden;
+      }
+
+      .fluidMedia iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+    <!--Video-->
+    <div class="content has-text-centered fluidMedia">
+      <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FRunNUS%2Fvideos%2F1850804981642757%2F&width=700&show_text=false&height=392&appId"
+        width="700" height="392" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"
+        allow="encrypted-media" allowFullScreen="true"></iframe>
+    </div>
+  </div>
 
   <!--Runners' Entitlement-->
   <section class="section has-background-grey-lighter runner-body">
@@ -342,7 +382,7 @@
               <span class="plan-price-currency">$</span>38 / 40 / 44</span>
           </div>
           <div class="plan-items">
-            <div class="plan-item">Ten Kilometer Route</div>
+            <div class="plan-item">10 Kilometer Route</div>
             <div class="plan-item">Singlet</div>
             <div class="plan-item">Food / Snacks *</div>
             <div class="plan-item">Photo @ Photobooth *</div>
@@ -354,7 +394,21 @@
           </div>
         </div>
       </div>
-      * At post-carnival event.
+      * At post race carnival.
+
+      <!--Designs-->
+      <div class="section">
+        <div class="container">
+          <div class="columns is-centered">
+            <div class="column has-text-centered">
+              <img src="img/singlet.jpeg" height="400" width="400">
+            </div>
+            <div class="column has-text-centered">
+              <img src="img/tee.jpeg" height="400" width="400">
+            </div>
+          </div>
+        </div>
+      </div>
 
       <!--Shirt size-->
       <h1 class="is-size-2">Unisex shirt sizing (inches)</h1>
@@ -399,6 +453,25 @@
         </table>
       </div>
     </div>
+
+    <!--Post Race Carnival-->
+    <div class="section">
+      <div class="container">
+        <div class="content has-text-centered">
+          <h1 class="title is-2">Post Race Carnival</h1>
+          <p class="is-size-5">
+            All runners are entitled free entry to the post race carnival
+          </p>
+          <li>Finisher's Welfare</li>
+          <li>Awareness Booths</li>
+          <li>Complimentary Photo Booths</li>
+          <li>Complimentary Snacks</li>
+          <li>.. And many more!</li>
+        </div>
+        <div class="container has-text-centered">
+          <img class="" src="img/carnival_blue.png" alt="" width="70%">
+        </div>
+      </div>
   </section>
 
   <!--Race Pack-->
@@ -426,16 +499,62 @@
     <div class="container">
       <h1 class="title is-1">Volunteering</h1>
       <h2 class="subtitle">
+        <div class="content">
+          Excited to make a difference in someone's life?
+        </div>
+        <a class="button is-fullwidth is-success" href="https://orgsync.com/140428/forms/324490">Sign up</a>
+      </h2>
+    </div>
+  </section>
+
+  <!--Sponsors-->
+  <section class="section has-background-white-ter sponsors-body">
+    <div class="container">
+      <h1 class="title is-1">Sponsors</h1>
+      <h2 class="subtitle">
         Stay tuned for updates.
       </h2>
     </div>
   </section>
 
+  <!--Media-->
+  <section class="section">
+    <div class="columns">
+      <div class="column has-text-centered is-hidden-mobile">
+        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FRunNUS%2F&tabs=timeline&width=340&height=600&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId"
+          width="340" height="600" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"
+          allow="encrypted-media"></iframe>
+      </div>
+      <div class="column has-text-centered">
+        <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/BXAp_z3l_hF/"
+          data-instgrm-version="8" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+          <div style="padding:8px;">
+            <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:28.125% 0; text-align:center; width:100%;">
+              <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div>
+            </div>
+            <p style=" margin:8px 0 0 0; padding:0 4px;">
+              <a href="https://www.instagram.com/p/BXAp_z3l_hF/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;"
+                target="_blank">RunNUS has been the biggest running event in NUS for 11 years! Want to be part of the tradition? Be an early
+                bird and sign up at www.gevme.com/runnus-2017 Mid-week reminder to join our Instagram giveaway as well! You
+                have 2 more days to try your luck :)</a>
+            </p>
+            <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A post shared by
+              <a href="https://www.instagram.com/runnus/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;"
+                target="_blank"> RunNUS 2018</a> (@runnus) on
+              <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;"
+                datetime="2017-07-26T12:45:17+00:00">Jul 26, 2017 at 5:45am PDT</time>
+            </p>
+          </div>
+        </blockquote>
+        <script async defer src="https://www.instagram.com/embed.js"></script>
+      </div>
+  </section>
+
   <!--Contact-->
   <section class="section has-background-grey-darker">
     <div class="container">
-      <div class="columns has-text-centered has-text-white">
-        <div class="column">
+      <div class="columns is-centered has-text-white">
+        <div class="column has-text-centered">
           <p class="is-size-4">About Us</p>
           <p class="is-size-6">
             <a href="admin@runnus.nussportsclub.org">Email</a>
@@ -447,7 +566,7 @@
             <a href="https://www.instagram.com/_u/runnus">Instagram</a>
           </p>
         </div>
-        <div class="column">
+        <div class="column has-text-centered">
           <p class="is-size-4">FAQ</p>
           <p class="is-size-6">
             <a href="content/Terms PDF.pdf" download>Terms and Conditions</a>
@@ -463,8 +582,6 @@
           </p>
         </div>
       </div>
-    </div>
-    </div>
     </div>
   </section>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
