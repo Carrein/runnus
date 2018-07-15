@@ -137,7 +137,7 @@ $(document).ready(function () {
       var formData = $(form).serialize();
       $.ajax({
         type: 'POST',
-        url: 'http://localhost/php/form.php',
+        url: '/php/form.php',
         data: formData
       }).done(function (response) {
         // Clear the form.
