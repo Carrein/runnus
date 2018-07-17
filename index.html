@@ -30,11 +30,14 @@
           <a class="navbar-item runner">
             Runner's Entitlement
           </a>
-          <a class="navbar-item pack">
-            Race Packs
+          <a class="navbar-item post">
+            Post Race Carnival
           </a>
           <a class="navbar-item routes">
             Race Routes
+          </a>
+          <a class="navbar-item pack">
+            Race Packs
           </a>
           <a class="navbar-item volunteer">
             Volunteering
@@ -99,7 +102,8 @@
         <p>
           Since its inception in 2007, RunNUS has become one of the biggest and most anticipated event for NUS students, staff and
           alumni. Above running and fun, RunNUS will be partnering with NUS Disability Support Office (DSO) and inviting
-          Social Service Organizations (SSOs) this year.
+          Social Service Organizations (SSOs) this year. With the tagline ‘Run For A Cause’, we aim to empower the community
+          of People With Disabilities/Special Needs (PWDSNs) through inclusiveness.
         </p>
       </div>
     </div>
@@ -108,6 +112,32 @@
   <!--Categories-->
   <section class="section categories-body">
     <div class="container">
+
+      <style>
+        video {
+          width: 80%;
+          max-height: 80%;
+        }
+      </style>
+
+      <div class="content">
+        <h5>
+          Our Race Ambassor, Xing En, is a Year 3 undergraduate at NUS. Affected by Senior Loken Syndrome, her vision has worsened
+          over time, causing her to be visually-impaired. Refusing to let her condition stop her love for running, Xing En
+          will be flagging off and taking part in the 3KM Challenge at RunNUS this year.
+        </h5>
+      </div>
+
+      <!-- <div class="video"> -->
+      <div class="container has-text-centered">
+        <video poster="img/runtransparency.png" controls>
+          <source src="content/promotion.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <!-- </div> -->
+      <br>
+      <br>
+
       <h1 class="title is-1">Categories and Fees</h1>
       <div class="columns is-desktop">
         <div class="column">
@@ -288,35 +318,6 @@
     </div>
   </section>
 
-  <div class="section">
-    <!--Inline styling for iFrame-->
-    <style>
-      .fluidMedia {
-        position: relative;
-        padding-bottom: 56.25%;
-        /* proportion value to aspect ratio 16:9 (9 / 16 = 0.5625 or 56.25%) */
-        padding-top: 0px;
-        height: 0;
-        overflow: hidden;
-      }
-
-      .fluidMedia-iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-      }
-    </style>
-
-    <!--Video-->
-    <div class="container has-text-centered fluidMedia">
-      <iframe class="fluidMedia-iframe" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FRunNUS%2Fvideos%2F1850804981642757%2F&width=700&show_text=false&height=392&appId"
-        width="700" height="392" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"
-        allow="encrypted-media" allowFullScreen="true"></iframe>
-    </div>
-  </div>
-
   <!--Runners' Entitlement-->
   <section class="section has-background-grey-lighter runner-body">
     <div class="container">
@@ -437,28 +438,46 @@
         </table>
       </div>
     </div>
+  </section>
 
-    <!--Post Race Carnival-->
-    <section class="section">
-      <div class="content has-text-centered">
+  <!--Post Race Carnival-->
+  <section class="section post-body">
+    <div class="container">
+      <div class="content">
         <h1 class="title is-2">Post Race Carnival</h1>
         <p class="is-size-5">
-          All runners are entitled free entry to the post race carnival
+          All runners are entitled free entry to the post race carnival:
         </p>
-        <li>Finisher's Welfare</li>
-        <li>Awareness Booths</li>
-        <li>Complimentary Photo Booths</li>
-        <li>Complimentary Snacks</li>
-        <li>.. And many more!</li>
+        <table class="is-size-6 has-text-centered">
+          <tbody>
+            <tr>
+              <td>Finisher's Welfare</td>
+            </tr>
+            <tr>
+              <td>Awareness Booths</td>
+            </tr>
+            <tr>
+              <td>Complimentary Photo Booths</td>
+            </tr>
+            <tr>
+              <td>Complimentary Snacks</td>
+            </tr>
+            <tr>
+              <td>Lucky Draw</td>
+            </tr>
+            <tr>
+              <td>.. And many more!</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="container has-text-centered">
+          <img class="" src="img/carnival_blue.png" alt="" width="70%">
+        </div>
       </div>
-      <div class="container has-text-centered">
-        <img class="" src="img/carnival_blue.png" alt="" width="70%">
-      </div>
-    </section>
   </section>
 
   <!--Routes-->
-  <section class="section has-background routes-body">
+  <section class="section has-background-white-ter routes-body">
     <div class="container">
       <h1 class="title is-1">Race Routes</h1>
       <div class="content has-text-centered">
@@ -621,7 +640,7 @@
   </section>
 
   <!--Sponsors-->
-  <section class="section has-background sponsors-body">
+  <!-- <section class="section has-background sponsors-body">
     <div class="container">
       <h1 class="title is-1">Sponsors and Organizations</h1>
       <div class="content">
@@ -719,7 +738,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <!--Form-->
   <!-- <section class="section has-background-white-ter contact-body">

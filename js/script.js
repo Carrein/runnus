@@ -57,9 +57,17 @@ $(document).ready(function () {
     },
       'slow');
   });
+
   $(".sponsors").click(function () {
     $('html,body').animate({
       scrollTop: $(".sponsors-body").offset().top
+    },
+      'slow');
+  });
+
+  $(".post").click(function () {
+    $('html,body').animate({
+      scrollTop: $(".post-body").offset().top
     },
       'slow');
   });
@@ -146,7 +154,7 @@ $(document).ready(function () {
         $('#subject').val('');
         $('#message').val('');
       });
-            
+
       return false;  //This doesn't prevent the form from submitting.
     }
   });
@@ -207,5 +215,4 @@ $(document).ready(function () {
   //       // });
   //     }
   //   }
-  // });
 });
